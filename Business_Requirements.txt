@@ -1,0 +1,31 @@
+I need a cross-platform application where I can play with favorite classic retro games.
+Data store technology: SQL DB
+I need a "retro" style UI with the following option:
+	- Main screen: 
+		application description
+		application main menu description and how to navigate to it
+		application main menu:
+			Start: I need to start the Main flow of the application
+			Maintenance: I need a user maintenance screen where I can edit or delete existing users.
+			Exit: I need to exit the application
+	-Start screen:
+		Main screen option UI with navigation option and menu description:
+			User registration: I need to enter the user registration
+			User login: I need to login the application
+			Exit: I need to exit the application
+				User registration screen:
+					I need a registration "form" with the following option:
+						Send e-mail to the registered user with the registered data.
+				User login screen:
+					I need a login "form" where the existing user logged in.
+	- Game screen:
+		After the user successful logged in show the Game menu with the following options:
+			Choose Game: Open a Game selection menu
+				/Game
+				Install Game
+				Delete Game
+				Play
+				Save
+				Load
+				Results: Results report need to send via e-mail
+			Exit: I need to exit the application
