@@ -10,7 +10,7 @@ namespace ClassicGameCollection.UI
 	public class AuthenticationUI
 	{
 		private readonly IScreen _screen;
-		private string _title = UIResources.AuthenticationScreenTitle;
+		private readonly string _title = UIResources.AuthenticationScreenTitle;
 
 		public AuthenticationUI(IScreen screen)
 		{

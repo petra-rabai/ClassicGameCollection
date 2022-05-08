@@ -12,8 +12,8 @@ namespace ClassicGameCollection.UI
 	{
 		private readonly IScreen _screen;
 
-		private string _title = UIResources.MainScreenTitle;
-		private string _description = UIResources.MainScreenDescription;
+		private readonly string _title = UIResources.MainScreenTitle;
+		private readonly string _description = UIResources.MainScreenDescription;
 
 
 		public MainScreenUI(IScreen screen)

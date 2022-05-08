@@ -71,7 +71,7 @@ namespace ClassicGameCollection.ScreenSetup
 		public void WaitForUserInput()
 		{
 			while (FlashPrompt(" *** Wait for user input ... (Hit Enter to Continue)",
-			TimeSpan.FromMilliseconds(500)) != ConsoleKey.Enter);
+			TimeSpan.FromMilliseconds(500)) != ConsoleKey.Enter) ;
 		}
 
 		private static ConsoleKey FlashPrompt(string prompt, TimeSpan interval)
